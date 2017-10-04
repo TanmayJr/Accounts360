@@ -143,9 +143,9 @@ include 'core/init.php'
                     <a href="" class="forget" data-toggle="modal" data-target=".forget-modal">Dont have an account?Sign up</a>
                     <hr>
         	    </div>
-    		</div> <!-- /.col-xs-12 -->
-    	</div> <!-- /.row -->
-    </div> <!-- /.container -->
+    		</div>
+    	</div>
+    </div>
 </section>
 
 
