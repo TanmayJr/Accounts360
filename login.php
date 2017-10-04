@@ -1,11 +1,11 @@
 <?php
 include 'core/init.php';
 
-if (user_exists('test@nomail.com') === true){
+/*if (user_exists('test@nomail.com') === true){
     echo "Exisits";
 }else{
     echo "no";
-}
+}*/
 
 if (empty($_POST) === false) {
     $email = $_POST['email'];
@@ -22,7 +22,9 @@ if (empty($_POST) === false) {
         }else{
             //redirect to homepage
             $_SESSION['user_id'] = $login;
-            header ('Location : dashboard.php');
+            echo "Open";
+            header("Location:dashx.php");
+            exit();
         }
     }
 
