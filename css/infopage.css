@@ -1,0 +1,19 @@
+.parallax {
+    /* The image used */
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background: url(Stock/banner.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+body{
+    font-family: Heebo;
+
+    /*font-family: 'Cookie', cursive;
+font-family: 'Zilla Slab Highlight', cursive;*/
+}
+.subhead{
+    font-family: 'Zilla Slab Highlight', cursive;
+}
