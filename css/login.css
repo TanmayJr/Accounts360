@@ -1,0 +1,148 @@
+body{
+    /*background-image: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ), url(Stock/pexels-photo-265152.jpeg);*/
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.login-box{
+    width: 65%;
+    /*margin: 0 auto;*/
+    
+}
+
+.row{
+    margin-top: 5%;
+}
+
+.login-box legend{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:30px;
+  
+}
+.centerTable{
+    margin: 0 auto;
+    
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    background-color: ghostwhite;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid #dcdcdc;
+}
+td{
+    font-size: 20px;
+}
+input{
+    color: #333333;
+}
+table{
+    border-collapse:separate;
+    border-spacing:0 3px;
+    /*background: rgba( 0, 0, 0,0.5);*/
+}
+
+/* Navbar*/
+.navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+/* Navbar Ends*/
+
+
+/*Copied Login*/
+
+#login {
+    padding-top: 30px
+}
+#login .form-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: left;
+	display: block;
+    padding: 3px;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
