@@ -148,25 +148,13 @@
           <small style="font-size: 0.5em;">The Complete solution </small>
           </h4>
           </a>
-          <!--<div class="collapse" id="toggleDemo0" style="height: 0px;">
-            <ul class="nav nav-list">
-              <li><a href="#">ProfileSubMenu1</a></li>
-              <li><a href="#">ProfileSubMenu2</a></li>
-              <li><a href="#">ProfileSubMenu3</a></li>
-            </ul>
-          </div>-->
+
         </li>
         <li>
-          <a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+          <a href="dashx.php" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
           <span class="glyphicon glyphicon-th"></span> Dashboard <span class="caret pull-right"></span>
           </a>
-          <!--<div class="collapse" id="toggleDemo" style="height: 0px;">
-            <ul class="nav nav-list">
-              <li><a href="#">Submenu1.1</a></li>
-              <li><a href="#">Submenu1.2</a></li>
-              <li><a href="#">Submenu1.3</a></li>
-            </ul>
-          </div> -->
+
         </li>
         <li>
           <a href="#" data-toggle="collapse" data-target="#toggleDemo2" data-parent="#sidenav01" class="collapsed">
@@ -184,32 +172,15 @@
     </div>
   </div>
 	</div>
-	<div class="col-sm-9 col-md-10 affix-content">
+	<div class="col-sm-9 col-md-10 affix-content" >
 		<div class="container">
 			
             <div class="page-header">
-                <h3><span class="glyphicon glyphicon-th"></span> Page starts here</h3>
+                <h3><span class="glyphicon glyphicon-th"></span>Dashboard</h3>
             </div>
 
 
-            <!--<div class="card-deck">
-                <div class="card text-center" style="width: 292px;height: 342px;background-color: ghostwhite; "> <!Card 1>
 
-                    <div class="card-block">
-                    <div class="card-title"><div class="card-title">Income</div></div>
-                    <div id="columnchart_values" style="width: 10%; height: 100px;"></div></div>
-
-                </div>
-
-                <div class="card text-center" style="width: 292px;height: 342px;background-color: ghostwhite; "> <!Card 1>
-
-                    <div class="card-block">
-                        <div class="card-title"><div class="card-title">Income</div></div>
-                        <div id="columnchart_values" style="width: 10%; height: 100px;"></div></div>
-
-                </div>
-
-            </div>-->
 
 
             <div class="holder">
@@ -290,7 +261,7 @@
 
   </div>
         <hr>
-        <div>©2017 Mini Project. All Rights reserved</div>
+        <div>©2017 Mini Project. All Rights reserved<span style="float:right">Terms of Use</span></div>
 
 		</div>
 	</div>

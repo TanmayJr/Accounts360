@@ -37,7 +37,7 @@ li > a{
   margin-top: 29px;
   margin-left: 1%;
   box-shadow: 10px 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  
+
   border: solid 1px #dcdcdc;
 }
 .card-block{
@@ -52,7 +52,9 @@ li > a{
   html,body{
     background-color: #f8f8f8;
     height: 100%;
-    overflow: auto;
+
+    /*overflow: hidden;*/
+    overflow: hidden;
 
   }
     .affix-content .container .page-header{
