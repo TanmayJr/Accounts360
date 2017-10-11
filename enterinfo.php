@@ -72,48 +72,55 @@
                     </div>
                     <div class="modal-body">
                         <div>
-                            <form>
+                            <form action="dbenter.php" method="post">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">Company details</label>
-                                        <input type="text" class="form-control" placeholder="Company name">
+                                        <input type="text" class="form-control" placeholder="Company name" name="cname">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">&nbsp;</label>
-                                        <input type="text" class="form-control"  placeholder="Location">
+                                        <input type="text" class="form-control"  placeholder="Location" name="clocation">
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">Employee details</label>
-                                        <input type="text" class="form-control" placeholder="Number of Employees">
+                                        <input type="text" class="form-control" placeholder="Number of Employees" name="noemp">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">&nbsp;</label>
-                                        <input type="text" class="form-control"  placeholder="Salary of Employees">
+                                        <input type="text" class="form-control" name="salemp" placeholder="Salary of Employees">
                                     </div>
                                 </div>
-
-                                <div class="form-group">
-                                    <label for="inputAddress" class="col-form-label">Address</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputAddress2" class="col-form-label">Address 2</label>
-                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label class="col-form-label">Inventory details</label>
+                                        <input type="text" class="form-control" placeholder="Name of product" name="noemp">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" name="noinv" placeholder="Number of inv">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" name="costinv" placeholder="Cost of inv">
+                                    </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="inputCity" class="col-form-label">City</label>
-                                        <input type="text" class="form-control" id="inputCity">
+                                        <label for="inputCity" class="col-form-label">Bank acc</label>
+                                        <input type="text" class="form-control" name="bankacc" placeholder="12 digits">
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="inputState" class="col-form-label">State</label>
-                                        <select id="inputState" class="form-control">Choose</select>
+                                        <label for="inputState" class="col-form-label">Bank</label>
+                                        <select name="bname" class="form-control">
+                                            <option>HDFC</option>
+                                            <option>ICICI</option>
+                                            <option>AXIS</option>
+                                        </select>
                                     </div>
                                     <div class="form-group col-md-2">
-                                        <label for="inputZip" class="col-form-label">Zip</label>
-                                        <input type="text" class="form-control" id="inputZip">
+                                        <label for="inputZip" class="col-form-label">ISFC</label>
+                                        <input type="text" class="form-control" name="ifsccode">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -125,7 +132,7 @@
                                 </div>
                                 <div class="btn-group btn-group-justified">
                                     <div class="btn-group"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
-                                    <div class="btn-group"><button type="button" class="btn btn-primary">Save changes</button></div>
+                                    <div class="btn-group"><button type="submit" class="btn btn-primary">Save changes</button></div>
                                 </div>
                             </form>
 
