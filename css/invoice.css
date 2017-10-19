@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+.row{
+    padding-left: -5px;
+}
+
+.col-sm-2{
+    margin-left: -15px; /*ITS Showing gap so i hardcoded*/
+
+}
+
+.col-sm-10{
+    /*background-color: #dcdcdc;*/
+    width: 100%;
+    margin-left: 0px; /*ITS Showing gap so i hardcoded*/
+}
