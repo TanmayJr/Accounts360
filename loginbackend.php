@@ -23,7 +23,7 @@ if (empty($_POST) === false) {
             //redirect to homepage
             $_SESSION['user_id'] = $login;
             echo "Open";
-            header("Location:dashx.php");
+            header("Location:dashboardpage.php");
             exit();
         }
     }

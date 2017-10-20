@@ -124,7 +124,7 @@ include 'core/init.php'
     	    <div class="col-lg-6 col-centered">
         	    <div class="form-wrap">
                 <h1>Log in to your account</h1>
-                    <form role="form" action="login.php" method="POST" id="login-form" autocomplete="off">
+                    <form role="form" action="loginbackend.php" method="POST" id="login-form" autocomplete="off">
                         <div class="form-group">
                             <label for="email" class="sr-only">Email</label>
                             <input type="email" name="email" id="email" class="form-control" placeholder="somebody@example.com">
