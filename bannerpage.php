@@ -20,6 +20,7 @@
     </head>
 
 <body>
+<div class="">
 <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,10 +129,7 @@
     </div>
 </div>
     </div>
-<footer class="footer">
-    <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-    </div>
+
 
 
 
@@ -208,7 +206,7 @@
 
     </div>
     <div class="row" style="height: 500px">
-        <div class="parallax" style="background-image:url(Stock/banner.jpg)">
+        <div class="parallax" style="background-image:url(Stock/home.jpeg)">
             <div>
                 <div>
                     <h1>Account360</h1>
@@ -220,7 +218,7 @@
             </div>
         </div>
     </div>
-    </div>
+
     <footer class="footer">
         <div class="container">
             <span class="text-muted">Place sticky footer content here.</span>
@@ -249,7 +247,7 @@
 
 
 </footer>
-    
+    </div>
     
 </body>
 </html>

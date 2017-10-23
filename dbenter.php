@@ -1,8 +1,8 @@
 <?php
-mysql_connect("localhost","root") or die(mysql_error("Disconnect"));
+$con =  mysqli_connect("localhost","root") or die(mysqli_error("Disconnect"));
 echo "Connection established";
 $db_name = "mini";
-mysql_select_db($db_name) or die (mysql_error());
+mysqli_select_db($con ,$db_name) or die (mysqli_error());
 echo "Database found";
 $cname = $_POST["cname"];
 $clocation = $_POST["clocation"];
@@ -22,6 +22,6 @@ if($query == true){
 else{
     print "try again";
 }
-mysql_query($query) or die(mysql_error("in er"));
-mysql_close();
+mysqli_query($con, $query) or die(mysqli_error("in er"));
+mysqli_close($con);
 ?>

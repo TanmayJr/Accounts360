@@ -89,7 +89,7 @@
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">Employee details</label>
-                                        <input type="text" class="form-control" placeholder="Number of Employees" name="noemp">
+                                        <input type="text" class="form-control"  name="noemp" placeholder="Number Emp">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="col-form-label">&nbsp;</label>
@@ -99,7 +99,7 @@
                                 <div class="form-row">
                                     <div class="form-group col-md-12">
                                         <label class="col-form-label">Inventory details</label>
-                                        <input type="text" class="form-control" placeholder="Name of product" name="noemp">
+                                        <input type="text" class="form-control" name="invname" placeholder="Name of product">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <input type="text" class="form-control" name="noinv" placeholder="Number of inv">
@@ -123,7 +123,7 @@
                                     </div>
                                     <div class="form-group col-md-2">
                                         <label for="inputZip" class="col-form-label">ISFC</label>
-                                        <input type="text" class="form-control" name="ifsccode">
+                                        <input type="number" class="form-control" name="isfccode">
                                     </div>
                                 </div>
                                 <div class="form-group">
